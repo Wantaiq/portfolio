@@ -23,6 +23,11 @@ a[href] {
 .navbar {
   margin-top: 50px;
 
+  .dot {
+    color: #10b981;
+    font-size: 3rem;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -71,7 +76,6 @@ a[href] {
 
 .hero {
   padding-top: 100px;
-  padding-bottom: 100px;
 
   .container {
     display: flex;
@@ -85,20 +89,27 @@ a[href] {
       width: 100%;
     }
 
-    .bubble-spc {
-      width: 250px;
+    .bubble-spc,
+    .big-bubble-spc {
+      width: fit-content;
       border-radius: 100%;
       border: 5px solid #10b981;
       padding: 2.5em;
       text-align: center;
       position: relative;
-      left: 150px;
+      left: 200px;
       bottom: 100px;
+    }
+
+    .big-bubble-spc {
+      padding: 1.5em;
+      left: 10px;
+      bottom: 150px;
     }
     .small-bubble-spc,
     .smaller-bubble-spc {
-      width: 20px;
-      padding: 1em;
+      width: 10px;
+      padding: 0.8em;
       border-radius: 100%;
       border: 5px solid #10b981;
       left: 450px;
@@ -107,32 +118,70 @@ a[href] {
     }
 
     .smaller-bubble-spc {
-      width: 10px;
+      width: 5px;
       left: 550px;
+      padding: 0.5em;
+    }
+
+    .small-bubble-spc,
+    .smaller-bubble-spc,
+    .bubble-spc,
+    .big-bubble-spc {
+      opacity: 0;
+      animation-name: bubble;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+    }
+
+    .smaller-bubble-spc {
+      animation-delay: 0.5s;
+      animation-duration: 2s;
+    }
+
+    .small-bubble-spc {
+      animation-delay: 0.75s;
+      animation-duration: 2.3s;
+    }
+
+    .bubble-spc,
+    .big-bubble-spc {
+      animation-delay: 1s;
+      animation-duration: 2.5s;
+    }
+
+    .small-bubble-spc.second {
+      left: 520px;
+      bottom: 250px;
+    }
+
+    .smaller-bubble-spc.second {
+      left: 600px;
+      bottom: 265px;
     }
 
     .title {
       font-size: 48px;
       margin-top: 0;
       margin-bottom: 10px;
-      color: #10b981;
     }
 
     .description {
       font-size: 22px;
       line-height: 40px;
+      font-weight: 600;
     }
 
     .cta {
+      position: relative;
+      bottom: 75px;
       display: inline-block;
       padding: 15px 45px;
-      margin-top: 20px;
       background-color: #000;
       color: #1c1c1c;
       text-decoration: none;
       border-radius: 15px;
       transition: transform 0.3s;
-      background-color: #10b981;
+      background-color: #6ee7b7;
       font-weight: 700;
       font-size: 1.4rem;
       letter-spacing: 1px;
@@ -186,5 +235,27 @@ a[href] {
   .contact-item {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@keyframes bubble {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
