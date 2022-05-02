@@ -135,18 +135,18 @@ a[href] {
 
     .smaller-bubble-spc {
       animation-delay: 0.5s;
-      animation-duration: 2s;
+      animation-duration: 2.5s;
     }
 
     .small-bubble-spc {
       animation-delay: 0.75s;
-      animation-duration: 2.3s;
+      animation-duration: 2.8s;
     }
 
     .bubble-spc,
     .big-bubble-spc {
-      animation-delay: 1s;
-      animation-duration: 2.5s;
+      animation-delay: 1.2s;
+      animation-duration: 3s;
     }
 
     .small-bubble-spc.second {
@@ -160,7 +160,7 @@ a[href] {
     }
 
     .title {
-      font-size: 48px;
+      font-size: 2rem;
       margin-top: 0;
       margin-bottom: 10px;
     }

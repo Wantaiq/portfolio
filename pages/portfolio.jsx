@@ -17,7 +17,7 @@ function Portfolio() {
             <h1 data-cy="pageTitle" className="title">
               Portfolio
             </h1>
-            <p className="description">😅</p>
+            <p className="description">I did not make this 😅</p>
 
             <div className="portfolio-wrapper">
               <div className="portfolio-item">

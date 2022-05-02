@@ -16,26 +16,23 @@ function Home() {
           <div className="text-wrapper">
             <div className="bubble-spc">
               <h1 data-cy="homePageTitle" className="title">
-                Howdy!
+                Welcome to my portfolio!
               </h1>
             </div>
             <div className="small-bubble-spc" />
             <div className="smaller-bubble-spc" />
             <div className="big-bubble-spc">
               <p className="description">
-                Welcome to my portfolio.
-                <br />
                 Feel free to look around.
                 <br />
-                If you have any questions, please do not hesitate to click this
-                shiny button.
+                If you have any questions, click the shiny button bellow!
               </p>
             </div>
             <div className="small-bubble-spc second" />
             <div className="smaller-bubble-spc second" />
 
             <Link href="/contact">
-              <a className="cta">Contact Filip</a>
+              <a className="cta">Get in touch !</a>
             </Link>
           </div>
 
