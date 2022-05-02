@@ -85,6 +85,32 @@ a[href] {
       width: 100%;
     }
 
+    .bubble-spc {
+      width: 250px;
+      border-radius: 100%;
+      border: 5px solid #10b981;
+      padding: 2.5em;
+      text-align: center;
+      position: relative;
+      left: 150px;
+      bottom: 100px;
+    }
+    .small-bubble-spc,
+    .smaller-bubble-spc {
+      width: 20px;
+      padding: 1em;
+      border-radius: 100%;
+      border: 5px solid #10b981;
+      left: 450px;
+      bottom: 90px;
+      position: relative;
+    }
+
+    .smaller-bubble-spc {
+      width: 10px;
+      left: 550px;
+    }
+
     .title {
       font-size: 48px;
       margin-top: 0;

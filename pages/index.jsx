@@ -14,9 +14,13 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 data-cy="homePageTitle" className="title">
-              Hello! I am Filip.
-            </h1>
+            <div className="bubble-spc">
+              <h1 data-cy="homePageTitle" className="title">
+                Hello! <br />I am Filip.
+              </h1>
+            </div>
+            <div className="small-bubble-spc" />
+            <div className="smaller-bubble-spc" />
             <p className="description">
               Saya seorang pekerja lepas pengembang web, fotograper, desainer
               antarmuka pengguna, dan penulis.
@@ -87,13 +91,13 @@ function Home() {
                 fill="#10B981"
               />
               <circle
-                cx="25.5"
-                cy="187.5"
+                cx="315.5"
+                cy="90.5"
                 r="12.5"
                 fill="black"
                 fillOpacity="0.5"
               />
-              <circle cx="15.5" cy="177.5" r="15.5" fill="#10B981" />
+              <circle cx="300" cy="80.5" r="15.5" fill="#10B981" />
               <rect
                 x="404"
                 y="349"
