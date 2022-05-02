@@ -150,14 +150,20 @@ a[href] {
       animation-duration: 3s;
     }
 
+    .big-bubble-spc {
+      animation-delay: 2s;
+    }
+
     .small-bubble-spc.second {
       left: 520px;
       bottom: 250px;
+      animation-delay: 1.7s;
     }
 
     .smaller-bubble-spc.second {
       left: 600px;
       bottom: 265px;
+      animation-delay: 1.4s;
     }
 
     .title,
