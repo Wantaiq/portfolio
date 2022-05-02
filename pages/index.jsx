@@ -15,7 +15,7 @@ function Home() {
         <div className="container">
           <div className="text-wrapper">
             <h1 data-cy="homePageTitle" className="title">
-              Hello! I am Filip Dopa
+              Hello! I am Filip.
             </h1>
             <p className="description">
               Saya seorang pekerja lepas pengembang web, fotograper, desainer
@@ -23,7 +23,7 @@ function Home() {
             </p>
 
             <Link href="/contact">
-              <a className="cta">Kontak Saya</a>
+              <a className="cta">Contact Filip</a>
             </Link>
           </div>
 
