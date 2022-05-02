@@ -14,7 +14,7 @@ function Contact() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-full">
-            <h1 data-cy="pageTitle" className="title">
+            <h1 data-cy="pageTitle" className="title-side">
               Contact
             </h1>
             <p className="description">
@@ -23,7 +23,7 @@ function Contact() {
             </p>
             <ul className="contact-links">
               <li className="contact-item">Email: filipdopa@yahoo.com</li>
-              <li className="contact-item">Phone: +43 681 81548559</li>
+              <li className="contact-item">Phone: </li>
             </ul>
           </div>
         </div>

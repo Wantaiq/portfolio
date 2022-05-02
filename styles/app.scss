@@ -7,6 +7,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   background-color: #1c1c1c;
+  height: 100vh;
 }
 
 /*
@@ -159,10 +160,15 @@ a[href] {
       bottom: 265px;
     }
 
-    .title {
+    .title,
+    .title-side {
       font-size: 2rem;
       margin-top: 0;
       margin-bottom: 10px;
+    }
+
+    .title-side {
+      color: #10b981;
     }
 
     .description {

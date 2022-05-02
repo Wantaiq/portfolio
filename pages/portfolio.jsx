@@ -14,7 +14,7 @@ function Portfolio() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-full">
-            <h1 data-cy="pageTitle" className="title">
+            <h1 data-cy="pageTitle" className="title-side">
               Portfolio
             </h1>
             <p className="description">I did not make this 😅</p>

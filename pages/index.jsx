@@ -32,7 +32,7 @@ function Home() {
             <div className="smaller-bubble-spc second" />
 
             <Link href="/contact">
-              <a className="cta">Get in touch !</a>
+              <a className="cta">Get in touch</a>
             </Link>
           </div>
 
